@@ -1,0 +1,91 @@
+:root {
+    --cian: #38e1a6;
+}
+
+/* body {
+  background: url('/home/mayamk/Desktop/Training/HTML/Exercise/resume/utils/img/bgimg.jpg') no-repeat 0 1%;
+} */
+
+/* a {
+    text-decoration: none;
+    color: #000000;
+} */
+
+.heading {
+    color: var(--cian);
+    font-weight: bold;
+    font-size: 110%;
+    margin: 50px auto auto auto;
+}
+
+hr {
+    border: 1px solid var(--cian);
+    margin: 0px auto 0px auto;
+}
+
+.title {
+    margin: 25px auto auto auto;
+}
+
+.skill {
+    /* margin: 0px auto auto auto; */
+    background-color: var(--cian);
+    /* color: ; */
+    padding: 1px;
+    font-size: 90%;
+    border-radius: 10%;
+    color: white;
+}
+
+.badge {
+    background-color: var(--cian);
+    color: white;
+}
+
+.langlist>li::marker, .task>li {
+  color: var(--cian);
+}
+
+.interestlist {
+    border: 1px solid var(--cian);
+    border-radius: 10%;
+}
+
+.about {
+    background-color: var(--cian);
+    color: white;
+}
+
+.position>p {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-weight: bold;
+}
+
+.subheading {
+    color: var(--cian);
+    font-weight: bold;
+    font-size: 90%;
+    margin: 0px;
+}
+
+.smalltext {
+    font-size: 65%;
+    color: var(--cian);
+    margin: auto auto 0px auto;
+}
+
+.coursename {
+    font-size: 80%;
+    margin-top: 0px;
+}
+
+.task>li {
+    list-style-type: square;
+    font-size: 80%;
+    color: black;
+}
+
+i {
+    color: var(--cian);
+}
