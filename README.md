@@ -1,2 +1,2 @@
 # html-exercise
-All Exercise for HTML
+All Exercise for HTML & CSS
