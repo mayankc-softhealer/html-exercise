@@ -5,49 +5,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excersice 1</title>
+    <style>
+        .header {
+            font-weight: bold;
+            background-color: turquoise;
+            text-align: center;
+        }
+
+        #ex2link {
+            text-decoration: none;
+            padding-bottom: 50px;
+            font-size: 50px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Title of the webpage -->
-    <h1 style="color: gray; text-align: center;">Topics covered in this webpage</h1>
+    <!-- Heading Tags Examples -->
+    <h1 class="header" title="Headings">HTML Heading Tags</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
 
-    <!-- Index List -->
-    <div>
-        <ol>
-            <li><a href="#tag">Tag</a></li>
-            <li><a href="#att">Attibute</a></li>
-            <li><a href="#tf">Text formatting</a></li>
-            <li><a href="#quot">Quotation</a></li>
-            <li><a href="#cmnt">Commnets</a></li>
-            <li><a href="#imgs">Images</a></li>
-            <li><a href="#lst">List</a></li>
-            <li><a href="#clid">Classes & ID</a></li>
-        </ol>
-    </div>
+    <!-- Text Formatting -->
+    <h1 class="header">HTML Text Formatting</h1>
+    <i>Italic Text</i>
+    <b>Bold Text</b>
+    <p>Sub<sub>script</sub> Text</p>
+    <p>Suer<sup>script</sup> Text</p>
+    <strong>Strong Text</strong>
+    <em>Emphasized</em>
+    <p>Text <mark>Mark</mark></p>
+    <p>Text <del>Deleted</del></p>
+    <p>Text </p><ins>Insert</ins></p>
 
-    <!-- Pre-formatting -->
-    <div>
-    <pre>This 
-        is text
-    formatting
-    </pre>
-    </div>
+    <!-- Quotation -->
+    <h1 class="header">Blockquote</h1>
+    <p>Quote from SpaceX website:</p>
+    <blockquote cite="https://www.spacex.com/humanspaceflight/mars/">
+        Establishing a self-sufficient city on Mars will require upwards of one million people and millions of tonnes of
+        cargo to be delivered to the Red planet. By launching more than 10 times per day to maximize transfer windows
+        that open up every approximately 26 months, several thousand Starships will ultimately transfer crew and
+        equipment to build a lasting presence on another world.
+    </blockquote>
+    <hr>
+    <p>Bernard Show says: <q>He who can, does; he who cannot, teaches.</q></p>
+    <hr>
+    <p>The <abbr title="International Space Station">ISS</abbr> orbits the Earth at an average altitude of 250 miles
+        (400 kilometers).</p>
+    <hr>
+    <address>
+        Will Robinson<br>
+        Visit us at:<br>
+        lostinspace.com<br>
+        Sector 255<br>
+        Proxima Centaury
+    </address>
+    <p><bdo dir="rtl">Right to Left Text</bdo></p>
 
-    <!-- Quotation Tag -->
-    <p>This is <q>Quotation</q></p>
+    <!-- Image -->
+    <h1 class="header">Image</h1>
+    <img src="img/Proxima.webp" alt="Proxima Centaury" width="800px" height="600px">
 
-    <!-- img tag -->
-    <div>
-        <img id="#imgs" src="img/softhealer_technologies_logo.jpeg" alt="softhealer technologies logo">
-    </div>
+    <!-- List -->
+    <h1 class="header">Lists</h1>
+    <h5>List of Largest Galaxies</h5>
+    <ol>
+        <li>ESO 383-76</li>
+        <li>ESO 306-17</li>
+        <li>IC 1101</li>
+        <li>Hercules A</li>
+        <li>A2261-BCG</li>
+    </ol>
+    <hr>
+    <h5>List of Largest Suns</h5>
+    <ul style="list-style-type:square;">
+        <li>Stephenson 2-18</li>
+        <li>UY Scuti</li>
+        <li>AH Scorpii</li>
+        <li>RW Cephei</li>
+        <li>V354 Cephei</li>
+    </ul>
 
-    <div>
-        <h4 style="color: rgb(42, 134, 134);">Types os ERP</h4>
-        <ol id="lst">
-            <li>On-premises</li>
-            <li>Cloud-based</li>
-            <li>Hybrid</li>
-        </ol>
-    </div>
+    <!-- Footer -->
+    <a href="ex_2_table.html" id="ex2link">Go to exercise 2 &gt;&gt;</a>
 </body>
+
 </html>
